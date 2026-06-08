@@ -1,0 +1,24 @@
+﻿=== FIRST 500 CHARS ===
+# -*- coding: utf-8 -*-
+"""
+app.py ´┐¢Ôé¼ÔÇØ ´┐¢ÔÇô´┐¢┼©renci Ba´┐¢┼©ar─▒s─▒ Tahmin Sistemi | Ana Streamlit Uygulamas─▒
+CRISP-DM Metodolojisi ´┐¢Ôé¼´┐¢ 5 ML Modeli ´┐¢Ôé¼´┐¢ UCI Student Performance
+"""
+
+import warnings
+warnings.filterwarnings("ignore")
+
+import numpy as np
+import pandas as pd
+import streamlit as st
+import plotly.express as px
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+
+from utils.data_loader import veri_indir_ve_yukle, veri_isle
+from utils.models import modelleri_egit, MODEL_KO
+=== CHECKS ===
+Contains '├û─şrenci': False
+Contains 'Ba┼şar─▒': False
+Contains '├çal─▒┼şma': False
+Total length: 43652
